@@ -8,6 +8,8 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,7 +27,16 @@ public class Cita {
     public int duracion;
     @Column
     public String descripcion;
-    @Column(name = "fecha_factura")
+    @Column(name = "fecha_cita")
     public LocalDate fechaCita;
+    @ManyToOne
+    @JoinColumn(name = "id_cliente")
+    public Cliente cliente;
+    @ManyToOne
+    @JoinColumn(name = "id_mascota")
+    public Mascota mascota;
+    @ManyToOne
+    @JoinColumn(name = "id_tratamiento")
+    public Tratamiento tratamiento;
     
 }
