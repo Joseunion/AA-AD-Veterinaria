@@ -15,7 +15,7 @@
     %white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%logger{20}): %msg%n%throwable
 </Pattern>-->
         </layout>
-    </appender>
+    </appender>git
  
     <!-- Configuración para que se almacene el log en un fichero: File Appender -->
     <appender name="RollingFile"
