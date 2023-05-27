@@ -2,9 +2,10 @@ package com.example.veterinaria.domain;
 
 import java.time.LocalDate;
 
-import org.springframework.data.annotation.Id;
+
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

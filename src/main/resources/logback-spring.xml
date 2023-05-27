@@ -2,7 +2,7 @@
 <configuration>
     <!-- Propiedades que se usará para indicar dónde almacenar los logs y cómo se llama el fichero -->
     <property name="LOG_DIR" value="logs" />
-    <property name="LOG_NAME" value="gestitallerAPI" />
+    <property name="LOG_NAME" value="veterinariaApi" />
  
     <!-- Configuración del log que aparece por consola: Console appender -->
     <appender name="Console"
@@ -11,7 +11,9 @@
             <!-- Configuración de la traza -->
             <Pattern>
                 %white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %-60.60yellow(%C{20}): %msg%n%throwable
-            </Pattern>
+            </Pattern><!-- <Pattern>
+    %white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%logger{20}): %msg%n%throwable
+</Pattern>-->
         </layout>
     </appender>
  
@@ -21,7 +23,9 @@
         <file>${LOG_DIR}/${LOG_NAME}.log</file>
         <encoder
                 class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+            <Pattern>
+    %white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%logger{20}): %msg%n%throwable
+</Pattern>
         </encoder>
  
         <!-- Política de rotado de logs: diario y cuando el fichero llegue a los 10 MB -->
