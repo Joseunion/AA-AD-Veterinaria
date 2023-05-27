@@ -326,3 +326,36 @@ ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@4ec09087 - failed
 [37m2023-05-27 19:09:13,321[0;39m [34mINFO [0;39m [[34mSpringApplicationShutdownHook[0;39m] [33mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m: Closing JPA EntityManagerFactory for persistence unit 'default'
 [37m2023-05-27 19:09:13,324[0;39m [34mINFO [0;39m [[34mSpringApplicationShutdownHook[0;39m] [33mc.z.h.HikariDataSource[0;39m: HikariPool-1 - Shutdown initiated...
 [37m2023-05-27 19:09:13,326[0;39m [34mINFO [0;39m [[34mSpringApplicationShutdownHook[0;39m] [33mc.z.h.HikariDataSource[0;39m: HikariPool-1 - Shutdown completed.
+[37m2023-05-27 19:41:33,451[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mc.e.v.VeterinariaApplication[0;39m: Starting VeterinariaApplication using Java 17.0.5 with PID 24796 (C:\Users\34606\Desktop\ActividadesAprendizaje\veterinaria\target\classes started by 34606 in C:\Users\34606\Desktop\ActividadesAprendizaje\veterinaria)
+[37m2023-05-27 19:41:33,454[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mc.e.v.VeterinariaApplication[0;39m: No active profile set, falling back to 1 default profile: "default"
+[37m2023-05-27 19:41:33,486[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[37m2023-05-27 19:41:33,487[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[37m2023-05-27 19:41:33,900[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[37m2023-05-27 19:41:33,983[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m: Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+[37m2023-05-27 19:41:34,468[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.w.e.t.TomcatWebServer[0;39m: Tomcat initialized with port(s): 8081 (http)
+[37m2023-05-27 19:41:34,479[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.a.c.h.Http11NioProtocol[0;39m: Initializing ProtocolHandler ["http-nio-8081"]
+[37m2023-05-27 19:41:34,480[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.a.c.c.StandardService[0;39m: Starting service [Tomcat]
+[37m2023-05-27 19:41:34,481[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.a.c.c.StandardEngine[0;39m: Starting Servlet engine: [Apache Tomcat/10.1.8]
+[37m2023-05-27 19:41:34,530[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.a.c.c.C.[.[.[/][0;39m: Initializing Spring embedded WebApplicationContext
+[37m2023-05-27 19:41:34,531[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m: Root WebApplicationContext: initialization completed in 1043 ms
+[37m2023-05-27 19:41:34,554[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mc.z.h.HikariDataSource[0;39m: HikariPool-1 - Starting...
+[37m2023-05-27 19:41:34,720[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mc.z.h.p.HikariPool[0;39m: HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./Users/34606/data/veterinaria.db user=USER
+[37m2023-05-27 19:41:34,722[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mc.z.h.HikariDataSource[0;39m: HikariPool-1 - Start completed.
+[37m2023-05-27 19:41:34,732[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.a.h.H2ConsoleAutoConfiguration[0;39m: H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./Users/34606/data/veterinaria.db'
+[37m2023-05-27 19:41:34,815[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.h.j.i.u.LogHelper[0;39m: HHH000204: Processing PersistenceUnitInfo [name: default]
+[37m2023-05-27 19:41:34,853[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.hibernate.Version[0;39m: HHH000412: Hibernate ORM core version 6.2.2.Final
+[37m2023-05-27 19:41:34,855[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.h.cfg.Environment[0;39m: HHH000406: Using bytecode reflection optimizer
+[37m2023-05-27 19:41:34,958[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.h.b.i.BytecodeProviderInitiator[0;39m: HHH000021: Bytecode provider name : bytebuddy
+[37m2023-05-27 19:41:35,055[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.o.j.p.SpringPersistenceUnitInfo[0;39m: No LoadTimeWeaver setup: ignoring JPA class transformer
+[37m2023-05-27 19:41:35,080[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.h.orm.dialect[0;39m: HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+[37m2023-05-27 19:41:35,244[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.h.b.i.BytecodeProviderInitiator[0;39m: HHH000021: Bytecode provider name : bytebuddy
+[37m2023-05-27 19:41:35,743[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[37m2023-05-27 19:41:35,787[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[37m2023-05-27 19:41:35,961[0;39m [31mWARN [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[37m2023-05-27 19:41:36,181[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.d.a.OptionalLiveReloadServer[0;39m: LiveReload server is running on port 35729
+[37m2023-05-27 19:41:36,190[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.a.c.h.Http11NioProtocol[0;39m: Starting ProtocolHandler ["http-nio-8081"]
+[37m2023-05-27 19:41:36,203[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mo.s.b.w.e.t.TomcatWebServer[0;39m: Tomcat started on port(s): 8081 (http) with context path ''
+[37m2023-05-27 19:41:36,212[0;39m [34mINFO [0;39m [[34mrestartedMain[0;39m] [33mc.e.v.VeterinariaApplication[0;39m: Started VeterinariaApplication in 3.113 seconds (process running for 3.406)
+[37m2023-05-27 19:41:38,802[0;39m [34mINFO [0;39m [[34mSpringApplicationShutdownHook[0;39m] [33mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m: Closing JPA EntityManagerFactory for persistence unit 'default'
+[37m2023-05-27 19:41:38,805[0;39m [34mINFO [0;39m [[34mSpringApplicationShutdownHook[0;39m] [33mc.z.h.HikariDataSource[0;39m: HikariPool-1 - Shutdown initiated...
+[37m2023-05-27 19:41:38,807[0;39m [34mINFO [0;39m [[34mSpringApplicationShutdownHook[0;39m] [33mc.z.h.HikariDataSource[0;39m: HikariPool-1 - Shutdown completed.
