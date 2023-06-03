@@ -10,5 +10,8 @@ import com.example.veterinaria.domain.Cliente;
 @Repository
 public interface ClienteRepository extends CrudRepository<Cliente, Long> {
     List<Cliente> findAll();
+
+    List<Cliente> findByNombreOrApellidoOrDni(String nombre, String apellido, String dni);
+
     
 }

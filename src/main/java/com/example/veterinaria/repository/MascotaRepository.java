@@ -10,5 +10,7 @@ import com.example.veterinaria.domain.Mascota;
 @Repository
 public interface MascotaRepository extends CrudRepository<Mascota, Long> {
     List<Mascota> findAll();
+
+    List<Mascota> findByEspecie(String especie);
     
 }
