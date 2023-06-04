@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.example.veterinaria.domain.Tratamiento;
 import com.example.veterinaria.domain.dto.TratamientoDTO;
@@ -25,6 +26,7 @@ import com.example.veterinaria.exception.TratamientoNotFoundException;
 import com.example.veterinaria.exception.VeterinarioNotFoundException;
 import com.example.veterinaria.service.TratamientoService;
 
+@RestController
 public class TratamientoController {
 
     @Autowired

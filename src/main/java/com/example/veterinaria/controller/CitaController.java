@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.example.veterinaria.domain.Cita;
 import com.example.veterinaria.domain.dto.CitaDTO;
@@ -24,6 +25,7 @@ import com.example.veterinaria.exception.MascotaNotFoundException;
 import com.example.veterinaria.exception.TratamientoNotFoundException;
 import com.example.veterinaria.service.CitaService;
 
+@RestController
 public class CitaController {
 
     @Autowired

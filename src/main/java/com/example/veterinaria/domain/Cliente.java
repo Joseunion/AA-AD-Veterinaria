@@ -41,8 +41,4 @@ public class Cliente {
     @JsonBackReference(value = "cliente-cita")
     private List<Cita> citas;
 
-
-
-
-
 }
